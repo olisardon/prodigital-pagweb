@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+	background-image: url(https://cdn.wallpapersafari.com/91/5/USJEz5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	display: flex;
+	justify-content: center;
+	font-family: 'Reggae One', bold;
+	font-size: 80;
+	color: FFD700;
+	-webkit-text-stroke: 1px black;
+}
+.titulo{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 15%;
+	background-color: white;
+}
+.imagen{
+	margin-top: 4%;
+	display: flex;
+	justify-content: center;
+}
+nav{
+	width: 100%;
+	height: 75px;
+	margin-top: 4%;
+	background-color: white;
+}
+nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+nav ul li{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30;
+	margin-top: 18px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.imagen2{
+	display: flex;
+	justify-content: center;
+	width: 95%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	background-color: white;
+}
+.imagen3{
+	display: flex;
+	justify-content: center;
+	width: 95%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+	background-color: white;
+}
+h2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30;
+	font-weight: bold;
+	margin-top: 20px;
+}
+p{
+
+	font-family: 'Quicksand', sans-serif;
+	margin: 20px 15px;
+	font-size: 25;
+}
+.imagen3 p{
+	margin-top: 5%;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4%;
+}
