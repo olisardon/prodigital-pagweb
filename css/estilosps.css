@@ -23,6 +23,24 @@ h1{
 	height: 15%;
 	background-color: white;
 }
+.menu{
+	margin-top: 50%;
+}
+nav{
+	width: 100%;
+	height: 75px;
+	margin-top: 4%;
+	background-color: white;
+}
+nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+nav ul li{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30;
+	margin-top: 18px;
+}
 a{
 	text-decoration: none;
 	color: black;
@@ -44,10 +62,16 @@ h2{
 p{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 25;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
 }
 h3{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 25;
+	margin-left: 40%;
+	margin-top: 10px;
 }
 .pj1{
 	display: flex;
@@ -71,47 +95,47 @@ h3{
 	margin-bottom: 4%;
 }
 .ton{
-	width: 45%;
+	width: 46%;
 	background-color: white;
 	margin-right: 2%;
 }
 .komiya{
-	width: 45%;
+	width: 46%;
 	background-color: white;
 	margin-left: 2%;	
 }
 .tsunoda{
-	width: 45%;
+	width: 46%;
 	background-color: white;
 	margin-right: 2%;
 }
 .kabae{
-	width: 45%;
+	width: 46%;
 	background-color: white;
 	margin-left: 2%;
 }
 .tsubone{
-	width: 45%;
+	width: 46%;
 	background-color: white;
 	margin-right: 2%;
 }
 .anai{
-	width: 45%;
+	width: 46%;
 	background-color: white;
 	margin-left: 2%;
 }
 .himuro{
-	width: 45%;
+	width: 46%;
 	background-color: white;
 	margin-right: 2%;
 }
 .ookami{
-	width: 45%;
+	width: 46%;
 	background-color: white;
 	margin-left: 2%;
 }
 .yagyu{
-	width: 45%;
+	width: 46%;
 	background-color: white;
 	margin-right: 2%;
 	margin-bottom: 8%;
@@ -121,6 +145,36 @@ h3{
 	margin-top: 15px;
 	margin-left: 15px;
 	border-color: black;
-	border-width: 2px;
+	border-width: 3px;
 	border-style: solid;
+}
+.img2{
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	margin-left: 6px;
+}
+.img3{
+	background-color: black;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 6px;
+}
+footer{
+	display: inline;
+	margin-left: 25%;
+}
+footer img{
+	margin-top: 2%;
+}
+h4{
+	margin-top: 1%;
+	margin-left: 40%;
+	font-family: 'Quicksand', sans-serif;
+}
+h5{
+	margin-left: 45%;
+	margin-top: 2%;
+	margin-bottom: 4%;
+	font-family: 'Quicksand', sans-serif;
 }
