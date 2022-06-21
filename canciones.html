@@ -1,6 +1,8 @@
 <!DOCTYPE>
 <html> 
 <head>
+<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/estilosc.css">
@@ -9,13 +11,13 @@
 <body>
 	<header>
 		<div class="titulo">
-			<a href="index.html"><img class="menu" src="img/hogar.png" width="40" height="40"></a>
-			<img src="img/rayo1.png" width="115" height="115">
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+			<a href="index.html"><img class="menu" src="images/hogar.png" width="40" height="40"></a>
+			<img class="rayo" src="images/rayo1.png" width="115" height="115">
 			<a href="index.html"><h1>AGGREFANS</h1></a>
-			<img src="img/rayo2.png" width="115" height="115">
+			<img class="rayo" src="images/rayo2.png" width="115" height="115">
 		</div>
-	</header>
-	<nav>
+	<nav id="navegador">
 		<ul>
 			<li><a href="index.html">Inicio</a></li>
 			<li><a href="pp.html">Personajes Principales</a></li>
@@ -24,6 +26,7 @@
 			<li><a href="https://www.netflix.com/browse?jbv=80198505">Ver Serie</a></li>
 		</ul>
 	</nav>
+	</header>
 	<section>
 		<div class="subtitulo">
 			<h2>CANCIONES</h2>
@@ -32,33 +35,43 @@
 		<div class="canciones1">
 			<div class="tema">
 				<h3>Tema Principal</h3>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/F_cdeFX-pMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/F_cdeFX-pMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 			<div class="ag">
 				<h3>Aggressive Girl</h3>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/pwywus00gGk?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/pwywus00gGk?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="canciones2">
 			<div class="vs">
 				<h3>Viral Star</h3>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/1NHuRIHr5FE?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/1NHuRIHr5FE?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 			<div class="ff">
 				<h3>Fuwa Fuwa</h3>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/1RWgy4QRm8Q?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/1RWgy4QRm8Q?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="clips">
 			<h3>Momentos de ira</h3>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/c5_-I731TqY?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/c5_-I731TqY?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 	</article>
 	</section>
 	<footer>
-		<img src="img/gif2.gif">
+		<img src="images/gif2.gif">
 		<h4>Página creada por <a href="https://www.instagram.com/luvmepl1ss/">@luvmepl1ss</a> (〃＾▽＾〃)</h4>
 		<h5>De una fan para fans (´,,•ω•,,)♡</h5>
 	</footer>
 </body>
+<script type="text/javascript">
+	function myFunction(){
+		let x = document.getElementById('navegador');
+		if (x.className !== 'responsive'){
+			x.className = 'responsive';
+		} else {
+			x.className = '';
+		}
+	}
+</script>
 </html>

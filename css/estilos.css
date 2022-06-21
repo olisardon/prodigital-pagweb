@@ -9,6 +9,7 @@ body{
 	background-size: cover;
 }
 h1{
+	max-width: 1300px;
 	display: flex;
 	justify-content: center;
 	font-family: 'Reggae One', bold;
@@ -28,11 +29,18 @@ h1{
 	display: flex;
 	justify-content: center;
 }
+.icon{
+	display: none;
+}
+header nav{
+	display: none;
+}
 nav{
 	width: 100%;
 	height: 75px;
 	margin-top: 4%;
 	background-color: white;
+	border-top: 6px solid #FFC300;
 }
 nav ul{
 	display: flex;
@@ -41,29 +49,37 @@ nav ul{
 nav ul li{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 30;
-	margin-top: 18px;
+	margin-top: 15px;
 }
 a{
 	text-decoration: none;
 	color: black;
 }
 .imagen2{
-	display: flex;
-	justify-content: center;
+	display: inline-block;
 	width: 95%;
 	margin-top: 4%;
-	margin-bottom: 4%;
+	margin-bottom: 2%;
 	margin-left: 2%;
 	background-color: white;
 }
+.imagen2 img{
+	float: left;
+	width: 250px;
+	margin-right: 2%;
+}
 .imagen3{
-	display: flex;
-	justify-content: center;
+	display: inline-block;
 	width: 95%;
 	margin-top: 4%;
-	margin-bottom: 4%;
+	margin-bottom: 2%;
 	margin-left: 2%;
 	background-color: white;
+}
+.imagen3 img{
+	float: left;
+	width: 250px;
+	margin-right: 2%;
 }
 h2{
 	display: flex;
@@ -74,33 +90,77 @@ h2{
 	margin-top: 20px;
 }
 p{
-
 	font-family: 'Quicksand', sans-serif;
 	margin: 20px 15px;
 	font-size: 25;
 }
 .imagen3 p{
-	margin-top: 5%;
+	margin-top: 3%;
+}
+.terciario{
+	background-color: #F5A6D7;
+	width: 40%;
+	height: 55%;
+	margin-left: 30%;
+	margin-bottom: 4%;
 }
 .terciario div{
 	width: 50%;
 	padding: 2%;
 }
-footer{
-	display: inline;
-	margin-left: 25%;
+label{
+	font-family: 'Quicksand', sans-serif;
+ 	font-size: 15;
+}
+.rett{
+	max-width: 450px;
 }
 footer img{
-	margin-top: 4%;
+	width: 500px;
+	margin-left: 33%;
+	display: flex;
+	justify-content: center;
 }
 h3{
+	display: flex;
+	justify-content: center;
 	margin-top: 1%;
-	margin-left: 39%;
 	font-family: 'Quicksand', sans-serif;
 }
 h4{
-	margin-left: 44%;
+	display: flex;
+	justify-content: center;
 	margin-top: 2%;
 	margin-bottom: 4%;
 	font-family: 'Quicksand', sans-serif;
+}
+@media screen and (max-width: 768px) {
+header{flex-wrap: wrap;}
+nav{display: none;}
+.icon {display: block; margin-top: 4%;}
+header nav{flex-basis: 100%;}
+header .navegador a{flex: 1 0 50%;}
+nav.responsive{display: block; width: 100%; height: 38%;}
+nav.responsive ul{display: block;}
+nav.responsive ul li{font-family: 'Quicksand', sans-serif; font-size: 25; padding: 4px;}
+.gif {display: none;}
+h1{display: inline; align-content: ; font-family: 'Reggae One', bold; font-size: 50; color: FFD700; -webkit-text-stroke: 1px black; max-width: 480px;}
+.titulo{display: flex; justify-content: center; width: 100%; height: 12%; background-color: white; max-width: 480px;}
+.imagen{margin-top: 4%; display: flex; justify-content: center; max-width: 480px;}
+.rayo{display: none;}
+.gif2{max-width: 450px; width: 95%;}
+.imagen2{max-width: 480x; width: 96%; margin-top: 4%; margin-bottom: 2%; background-color: white;}
+.imagen2 img{float: left; width: 230px; margin-right: 2%;}
+p{font-family: 'Quicksand', sans-serif; margin: 20px 15px; font-size: 20;}
+h2{font-family: 'Quicksand', sans-serif; font-size: 20; font-weight: bold; margin-top: 15px;}
+.imagen3{max-width: 480px; display: inline-block; width: 96%; margin-top: 4%; margin-bottom: 2%; background-color: white;}
+.imagen3 img{float: left; width: 200px; margin-right: 2%;}
+.terciario{background-color: #F5A6D7; width: 60%; height: 42%; margin-left: 20%; margin-bottom: 4%;}
+.terciario div{width: 50%; padding: 2%;}
+.rett{max-width: 250px;}
+label{font-family: 'Quicksand', sans-serif; font-size: 15;}
+footer{max-width: 450px;}
+footer img{margin-left: 20%; margin-top: 2%; max-width: 450px; width: 300px;}
+h3{font-size: 14px; display: flex; justify-content: center; margin-top: 1%; margin-left: 8%; font-family: 'Quicksand', sans-serif;}
+h4{font-size: 12px; display: flex; justify-content: center; margin-top: 2%; margin-bottom: 4%; margin-left: 8%; font-family: 'Quicksand', sans-serif;}
 }

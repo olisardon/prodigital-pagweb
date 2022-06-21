@@ -1,6 +1,8 @@
 <!DOCTYPE>
 <html> 
 <head>
+<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/estilospp.css">
@@ -9,13 +11,13 @@
 <body>
 	<header>
 		<div class="titulo">
-			<a href="index.html"><img class="menu" src="img/hogar.png" width="40" height="40"></a>
-			<img src="img/rayo1.png" width="115" height="115">
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+			<a href="index.html"><img class="menu" src="images/hogar.png" width="40" height="40"></a>
+			<img class="rayo" src="images/rayo1.png" width="115" height="115">
 			<a href="index.html"><h1>AGGREFANS</h1></a>
-			<img src="img/rayo2.png" width="115" height="115">
+			<img class="rayo" src="images/rayo2.png" width="115" height="115">
 		</div>
-	</header>
-	<nav>
+	<nav id="navegador">
 		<ul>
 			<li><a href="index.html">Inicio</a></li>
 			<li><a href="ps.html">Personajes Secundarios</a></li>
@@ -24,6 +26,7 @@
 			<li><a href="https://www.netflix.com/browse?jbv=80198505">Ver Serie</a></li>
 		</ul>
 	</nav>
+	</header>
 	<section>
 		<div class="subtitulo">
 			<h2>PERSONAJES PRINCIPALES</h2>
@@ -32,44 +35,54 @@
 			<div class="retsuko">
 				<h3>Retsuko</h3>
 				<div class="texto">
-				<img src="img/retsuko.jpeg" width="300" height="300">
+				<img src="images/retsuko.jpeg">
 				<p>La serie gira entorno a la vida de Retsuko, una oficinista que libera toda se frustración cantando death metal. Ella tiene una personalidad algo tímida pero educada, también es responsable con su trabajo aunque su jefe y sus compañeros se lo dificulten. Su sueño es casarse y tener una familia pero su misión de encontrar a su pareja ideal parece no cumplirse nunca.</p>
 				</div>
 			</div>
 			<div class="haida">
 				<h3>Haida</h3>
 				<div class="texto">
-				<img src="img/haida.jpg" width="300" height="300">
+				<img src="images/haida.jpg">
 				<p>Trabaja junto a Retsuko en el departamento de contabilidad y lleva mucho tiempo enamorado de ella pero no se anima a admitirlo. Tiene una personalidad neurótica y ansiosa, pero a la vez amable y considerado ya que aunque se pone celoso cuando ve a Retsuko iniciando una relación romántica con alguien, lo respeta porque está contento al verla feliz.</p>
 				</div>
 			</div>
 			<div class="fenneko">
 				<h3>Fenneko</h3>
 				<div class="texto">
-				<img src="img/fenneko.jpg" width="300" height="300">
+				<img src="images/fenneko.jpg">
 				<p>Es la compañera más cercana de Retsuko y se autoproclama como una stalker profesional en las redes. Es tranquila, perpicaz, obstinada, crítica, no tarda en darse cuenta de lo que piensan los demás y no tiene miedo de expresar sus opiniones. Se rie cuando Retsuko se envuelve en una situación embarazosa pero se enoja cuando sus superiores la maltratan.</p>
 				</div>
 			</div>
 			<div class="washimi">
 				<h3>Sra. Washimi</h3>
 				<div class="texto">
-				<img src="img/washimi.jpg" width="300" height="300">
+				<img src="images/washimi.jpg">
 				<p>Es la secretaria del director ejecutivo de la empresa. Es tranquila, práctica, sensata y la más razonable entre todos. Suele ser la que maneja las situaciones estresantes de sus amigos y puede llegar a ser muy intimidante cuando pone al jefe en su lugar. Es muy cercana a Gori y siempre se las ve juntas.</p>
 				</div>
 			</div>
 			<div class="gori">
 				<h3>Directora Gori</h3>
 				<div class="texto">
-				<img src="img/gori.jpg" width="300" height="300">
-				<p>Es la directora de marketing, en el trabajo siempre se la ve junto a Washimi, y las dos pasan el tiempo con Retsuko fuera del horario laboral. Gori se muestra como una mujer femenina y confiada, pero la verdad es que es muy tímida y emocional. También se esfuerza mucho para impresionar a los hombres y hacer que las relaciones funciones, hasta creó una app de citas.</p>
+				<img src="images/gori.jpg">
+				<p>Es la directora de marketing, en el trabajo siempre se la ve junto a Washimi, y las dos pasan el tiempo con Retsuko fuera del horario laboral. Gori se muestra como una mujer femenina y confiada, pero la verdad es que es muy tímida y emocional. También se esfuerza mucho para impresionar a los hombres y hacer que las relaciones funcionen, hasta creó una app de citas.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<footer>
-		<img src="img/gif2.gif">
+		<img src="images/gif2.gif">
 		<h4>Página creada por <a href="https://www.instagram.com/luvmepl1ss/">@luvmepl1ss</a> (〃＾▽＾〃)</h4>
 		<h5>De una fan para fans (´,,•ω•,,)♡</h5>
 	</footer>
 </body>
+<script type="text/javascript">
+	function myFunction(){
+		let x = document.getElementById('navegador');
+		if (x.className !== 'responsive'){
+			x.className = 'responsive';
+		} else {
+			x.className = '';
+		}
+	}
+</script>
 </html>

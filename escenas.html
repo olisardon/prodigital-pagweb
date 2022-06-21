@@ -1,22 +1,24 @@
 <!DOCTYPE>
 <html> 
 <head>
+<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/estilose.css">
 <link rel="stylesheet" href="css/lightbox.min.css">
+<link rel="stylesheet" type="text/css" href="css/estilose.css">
 <title>Escenas</title>
 </head>
 <body>
 	<header>
 		<div class="titulo">
-            <a href="index.html"><img class="menu" src="img/hogar.png" width="40" height="40"></a>
-			<img src="img/rayo1.png" width="115" height="115">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+            <a href="index.html"><img class="menu" src="images/hogar.png" width="40" height="40"></a>
+			<img class="rayo" src="images/rayo1.png" width="115" height="115">
 			<a href="index.html"><h1>AGGREFANS</h1></a>
-			<img src="img/rayo2.png" width="115" height="115">
+			<img class="rayo" src="images/rayo2.png" width="115" height="115">
 		</div>
-	</header>
-    <nav>
+    <nav id="navegador">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="pp.html">Personajes Principales</a></li>
@@ -25,33 +27,44 @@
             <li><a href="https://www.netflix.com/browse?jbv=80198505">Ver Serie</a></li>
         </ul>
     </nav>
+	</header>
 	<section>
         <div class="subtitulo">
             <h2>ESCENAS</h2>
         </div>
         <article class="fotos">
             <div>
-             <a class="example-image-link" href="img/1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="img/1.1.jpg" width="360" height="360" alt="" /></a>
-            <a class="example-image-link" href="img/2.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="img/2.2.jpg" width="360" height="360" alt="" /></a>
-            <a class="example-image-link" href="img/3.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="img/3.3.jpg" width="360" height="360" alt="" /></a>
-            <a class="example-image-link" href="img/4.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="img/4.4.jpg" width="360" height="360" alt="" /></a>
-             <a class="example-image-link" href="img/5.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="img/5.5.jpg" width="360" height="360" alt="" /></a>
-            <a class="example-image-link" href="img/6.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="img/6.6.jpg" width="360" height="360" alt="" /></a>
-            <a class="example-image-link" href="img/7.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="img/7.7.jpg" width="360" height="360" alt="" /></a>
-            <a class="example-image-link" href="img/8.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="img/8.8.jpg" width="360" height="360" alt="" /></a>
-             <a class="example-image-link" href="img/9.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="img/9.9.jpg" width="360" height="360" alt="" /></a>
-            <a class="example-image-link" href="img/10.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="img/10.10.jpg" width="360" height="360" alt="" /></a>
-            <a class="example-image-link" href="img/11.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="img/11.11.jpg" width="360" height="360" alt="" /></a>
-            <a class="example-image-link" href="img/12.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="img/12.12.jpg" width="360" height="360" alt="" /></a>
+            <a class="example-image-link" href="images/1.jpg" data-lightbox="example-set" data-title="Primer día de trabajo en la oficina de contabilidad con el nuevo jefe Yagyu. A diferencia de Ton, él es mucho más tranquilo y su serenidad se transmite a los demás empleados."><img class="example-image" src="images/1.1.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/2.jpg" data-lightbox="example-set" data-title="Tsunoda y Fennko secuestran a Retsuko para obligarla a admitir sus sentimientos hacia Haida."><img class="example-image" src="images/2.2.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/3.jpg" data-lightbox="example-set" data-title="Tsubone visita a Ton en su nueva oficina y se da cuenta que el supuesto ascenso que le asignó el nuevo director de la empresa no es realmente un ascenso"><img class="example-image" src="images/3.3.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/4.jpg" data-lightbox="example-set" data-title="Tsunoda y Fennko secuestran a Retsuko para obligarla a admitir sus sentimientos hacia Haida."><img class="example-image" src="images/4.4.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/5.jpg" data-lightbox="example-set" data-title="Retsuko le pide a Haida salir y pasan un día muy divertido juntos."><img class="example-image" src="images/5.5.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/6.jpg" data-lightbox="example-set" data-title="Mientras Retsuko y Haida se divierten juntos, Tsunoda y Fennko los espían por sus redes sociales."><img class="example-image" src="images/6.6.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/7.jpg" data-lightbox="example-set" data-title="Retsuko se anima a dar el primer paso y va a la casa de Haida para decirle que le gustaría conocerlo mejor y que empiecen a salir más seguido."><img class="example-image" src="images/7.7.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/8.jpg" data-lightbox="example-set" data-title="Luego de ese acontecimiento Haida se ve mucho más animado y alegre que nunca."><img class="example-image" src="images/8.8.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/9.jpg" data-lightbox="example-set" data-title="Una conversación entre el director Himuro y Sra Washimi, parece que ella se acostumbró rápido al nuevo jefe."><img class="example-image" src="images/9.9.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/10.jpg" data-lightbox="example-set" data-title="Ton antes de ir a trabjar desayunando con su familia, sus hijas le comentan que quieren un nuevo celular con nuevas funciones."><img class="example-image" src="images/10.10.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/11.jpg" data-lightbox="example-set" data-title="Kabae es citada para avisarle que deberá renunciar voluntariamente por órdenes de Himuro."><img class="example-image" src="images/11.11.jpg" alt="" /></a>
+            <a class="example-image-link" href="images/12.jpg" data-lightbox="example-set" data-title="Ton decide no ir a trabajar ese día porque se ha dado cuenta que realmente no lo han ascendido y que esa era una forma de hacer que el renuncie."><img class="example-image" src="images/12.12.jpg" alt="" /></a>
             </div>
         </article>
         </section>
         <footer>
-        <img src="img/gif2.gif">
+        <img src="images/gif2.gif">
         <h3>Página creada por <a href="https://www.instagram.com/luvmepl1ss/">@luvmepl1ss</a> (〃＾▽＾〃)</h3>
         <h4>De una fan para fans (´,,•ω•,,)♡</h4>
         </footer>
         <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
+<script type="text/javascript">
+    function myFunction(){
+        let x = document.getElementById('navegador');
+        if (x.className !== 'responsive'){
+            x.className = 'responsive';
+        } else {
+            x.className = '';
+        }
+    }
+</script>
 </html>
 
