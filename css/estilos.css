@@ -98,22 +98,40 @@ p{
 	margin-top: 3%;
 }
 .terciario{
+	display: flex;
+	justify-content: center;
 	background-color: #F5A6D7;
-	width: 40%;
-	height: 55%;
-	margin-left: 30%;
+	width: 80%;
+	height: auto;%;
+	margin-left: 10%;
 	margin-bottom: 4%;
 }
 .terciario div{
-	width: 50%;
+	width: 40%;
 	padding: 2%;
 }
 label{
 	font-family: 'Quicksand', sans-serif;
- 	font-size: 15;
+ 	font-size: 25;
+}
+input{
+	width: 50%;
+	height: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 .rett{
 	max-width: 450px;
+}
+textarea{
+	font-family: 'Quicksand', sans-serif;
+	width: 50%;
+	height: 25%;
+}
+button{
+	font-family: 'Quicksand', sans-serif;
+	width: 20%;
+	height: 10%;
 }
 footer img{
 	width: 500px;
@@ -155,10 +173,48 @@ p{font-family: 'Quicksand', sans-serif; margin: 20px 15px; font-size: 20;}
 h2{font-family: 'Quicksand', sans-serif; font-size: 20; font-weight: bold; margin-top: 15px;}
 .imagen3{max-width: 480px; display: inline-block; width: 96%; margin-top: 4%; margin-bottom: 2%; background-color: white;}
 .imagen3 img{float: left; width: 200px; margin-right: 2%;}
-.terciario{background-color: #F5A6D7; width: 60%; height: 42%; margin-left: 20%; margin-bottom: 4%;}
-.terciario div{width: 50%; padding: 2%;}
-.rett{max-width: 250px;}
-label{font-family: 'Quicksand', sans-serif; font-size: 15;}
+.terciario{
+	max-width: 480px;
+	display: block;
+	background-color: #F5A6D7;
+	width: 80%;
+	height: auto;%;
+	margin-bottom: 4%;
+}
+.terciario div{
+	max-width: 480px;
+	width: 100%;
+	padding: 2%;
+}
+label{
+	font-family: 'Quicksand', sans-serif;
+ 	font-size: 18;
+}
+input{
+	max-width: 480px;
+	width: 80%;
+	height: 4%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.rett{
+	max-width: 368px;
+}
+textarea{
+	max-width: 480px;
+	font-family: 'Quicksand', sans-serif;
+	width: 80%;
+	height: 10%;
+}
+button{
+	max-width: 480px;
+	font-family: 'Quicksand', sans-serif;
+	width: 20%;
+	height: 4%;
+}
+form{
+	margin-left: 18%;
+}
 footer{max-width: 450px;}
 footer img{margin-left: 20%; margin-top: 2%; max-width: 450px; width: 300px;}
 h3{font-size: 14px; display: flex; justify-content: center; margin-top: 1%; margin-left: 8%; font-family: 'Quicksand', sans-serif;}
