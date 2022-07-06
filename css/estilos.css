@@ -158,7 +158,7 @@ nav{display: none;}
 .icon {display: block; margin-top: 4%;}
 header nav{flex-basis: 100%;}
 header .navegador a{flex: 1 0 50%;}
-nav.responsive{display: block; width: 100%; height: 38%;}
+nav.responsive{display: block; width: 100%; height: 48%;}
 nav.responsive ul{display: block;}
 nav.responsive ul li{font-family: 'Quicksand', sans-serif; font-size: 25; padding: 4px;}
 .gif {display: none;}
